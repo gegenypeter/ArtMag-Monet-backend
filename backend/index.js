@@ -29,6 +29,9 @@ app.post("/api/save", (req, res) => {
 app.get('/api/collection', (req, res) => {
     res.json(artworks);
 })
+app.get('/', (req, res) => {
+    res.send("The Metropolitan Museum of Art Collection");
+})
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
