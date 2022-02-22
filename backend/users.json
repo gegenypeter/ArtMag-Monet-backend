@@ -1,0 +1,16 @@
+[
+    {
+        "password": "user",
+        "artworks": []
+    },
+    {
+        "email": "user@user1.hu",
+        "password": "user",
+        "artworks": []
+    },
+    {
+        "email": "a@a.hu",
+        "password": "a",
+        "artworks": []
+    }
+]
