@@ -32,5 +32,10 @@
         "email": "aaa",
         "password": "aaa",
         "artworks": []
+    },
+    {
+        "email": "laci@laci",
+        "password": "laci",
+        "artworks": []
     }
 ]
