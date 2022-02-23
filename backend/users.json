@@ -59,5 +59,10 @@
         "email": "asddsa",
         "password": "asddsa",
         "artworks": []
+    },
+    {
+        "email": "laci@laci",
+        "password": "laci",
+        "artworks": []
     }
 ]
