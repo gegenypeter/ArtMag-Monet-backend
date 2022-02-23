@@ -20,18 +20,6 @@
                 "title": "Haystacks, Morning, Éragny",
                 "artist": "Camille Pissarro",
                 "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20613-001.jpg"
-            },
-            {
-                "id": 436085,
-                "title": "Apple Blossoms",
-                "artist": "Charles-François Daubigny",
-                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2145.jpg"
-            },
-            {
-                "id": 669033,
-                "title": "Henri Fantin-Latour (1836–1904)",
-                "artist": "Carolus-Duran (Charles-Auguste-Émile Durant)",
-                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP338851.jpg"
             }
         ]
     },
@@ -41,12 +29,17 @@
         "artworks": []
     },
     {
-        "email": "asdsasd",
-        "password": "dadssad",
+        "email": "aaa",
+        "password": "aaa",
         "artworks": []
     },
     {
         "email": "laci@laci",
+        "password": "laci",
+        "artworks": []
+    },
+    {
+        "email": "laci@lacika",
         "password": "laci",
         "artworks": []
     }
