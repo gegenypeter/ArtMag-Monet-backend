@@ -1,16 +1,36 @@
 [
     {
+        "email": "user@user.hu",
+        "password": "user",
+        "artworks": [
+            {
+                "id": 436965,
+                "title": "The Monet Family in Their Garden at Argenteuil",
+                "artist": "Edouard Manet",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1562.jpg"
+            },
+            {
+                "id": 435882,
+                "title": "Still Life with Apples and a Pot of Primroses",
+                "artist": "Paul Cézanne",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT47.jpg"
+            },
+            {
+                "id": 438738,
+                "title": "Haystacks, Morning, Éragny",
+                "artist": "Camille Pissarro",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20613-001.jpg"
+            }
+        ]
+    },
+    {
+        "email": "user2@user.hu",
         "password": "user",
         "artworks": []
     },
     {
-        "email": "user@user1.hu",
-        "password": "user",
-        "artworks": []
-    },
-    {
-        "email": "a@a.hu",
-        "password": "a",
+        "email": "aaa",
+        "password": "aaa",
         "artworks": []
     }
 ]

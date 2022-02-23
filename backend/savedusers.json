@@ -1,0 +1,14 @@
+[
+    {
+        "email": "user@user.hu",
+        "password": "user",
+        "artworks": [
+            {
+                "id": 438738,
+                "title": "Haystacks, Morning, Éragny",
+                "artist": "Camille Pissarro",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20613-001.jpg"
+            }
+        ]
+    }
+]

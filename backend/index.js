@@ -14,23 +14,27 @@ app.post("/api/save", (req, res) => {
   if (!sessionId) return res.sendStatus(401);
   const user = mySessionStorage[sessionId];
   if (!user) return res.sendStatus(401);
-
+  const exists = user.artworks.some(art => art.id === req.body.id)
+  if(exists) return res.sendStatus(409)
   const newArtwork = {
-    sessionId: {
       id: req.body.id,
       title: req.body.title,
       artist: req.body.artist,
       image: req.body.image,
-    },
   };
   user.artworks.push(newArtwork);
-  fs.writeFileSync("savedusers.json", JSON.stringify(users, null, 4));
+  fs.writeFileSync("users.json", JSON.stringify(users, null, 4));
   res.sendStatus(200);
 });
 
 app.get("/api/collection", (req, res) => {
-  res.json(users);
+  const sessionId = req.header('authorization')
+  if(!sessionId) return res.sendStatus(401)
+  const user = mySessionStorage[sessionId];
+/*   if(!user) return res.sendStatus(401)
+ */  res.json(user.artworks);
 });
+
 app.get("/", (req, res) => {
   res.send("The Metropolitan Museum of Art Collection");
 });
