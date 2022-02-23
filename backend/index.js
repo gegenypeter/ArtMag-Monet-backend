@@ -28,11 +28,17 @@ app.post("/api/save", (req, res) => {
 });
 
 app.get("/api/collection", (req, res) => {
-  const sessionId = req.header('authorization')
-  if(!sessionId) return res.sendStatus(401)
-  const user = mySessionStorage[sessionId];
-/*   if(!user) return res.sendStatus(401)
- */  res.json(user.artworks);
+  const email = req.query.email;
+  console.log(email)
+  console.log(req.query)
+  const user = users.find(user => user.email === email)
+  if(user){
+    res.json(user.artworks);
+  }
+  else {
+    res.sendStatus(404);
+  }
+
 });
 
 app.get("/", (req, res) => {
