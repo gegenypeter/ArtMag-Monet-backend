@@ -51,6 +51,9 @@ app.listen(port, () => {
 app.post("/api/signup", (req, res) => {
   if (!req.body.email || !req.body.password)
     return res.status(400).json("missing credentials");
+  if (!(req.body.email.includes("@", "."))) {
+    res.sendStatus(401)
+  }
   const userExists = users.some((user) => user.email === req.body.email);
   if (userExists) return res.sendStatus(409);
   const user = {
