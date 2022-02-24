@@ -49,6 +49,7 @@ app.listen(port, () => {
 });
 
 app.post("/api/signup", (req, res) => {
+  console.log(req.body.email, req.body.password);
   if (!req.body.email || !req.body.password)
     return res.status(400).json("missing credentials");
   const userExists = users.some((user) => user.email === req.body.email);
