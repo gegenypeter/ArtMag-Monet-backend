@@ -320,5 +320,10 @@
                 "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP338851.jpg"
             }
         ]
+    },
+    {
+        "email": "bak",
+        "password": "bak",
+        "artworks": []
     }
 ]
