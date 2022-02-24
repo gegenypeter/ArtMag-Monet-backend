@@ -93,6 +93,234 @@
     {
         "email": "laci@laci",
         "password": "laci",
+        "artworks": [
+            {
+                "id": 210826,
+                "title": "Galcerán de Pinós Preventing the Shipment of the Ransom",
+                "artist": "",
+                "image": "https://images.metmuseum.org/CRDImages/es/web-large/ERT461.jpg"
+            },
+            {
+                "id": 258425,
+                "title": "Throne and figure",
+                "artist": "",
+                "image": "https://images.metmuseum.org/CRDImages/gr/web-large/DP-14100-009.jpg"
+            },
+            {
+                "id": 37758,
+                "title": "Baton Handle or Penis Sheath (?)",
+                "artist": "",
+                "image": "https://images.metmuseum.org/CRDImages/as/web-large/2000_284_55.JPG"
+            },
+            {
+                "id": 570235,
+                "title": "Cowrie shell",
+                "artist": "",
+                "image": "https://images.metmuseum.org/CRDImages/eg/web-large/LC-O_C_2d_EGDP023563.jpg"
+            },
+            {
+                "id": 438738,
+                "title": "Haystacks, Morning, Éragny",
+                "artist": "Camille Pissarro",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20613-001.jpg"
+            },
+            {
+                "id": 435882,
+                "title": "Still Life with Apples and a Pot of Primroses",
+                "artist": "Paul Cézanne",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT47.jpg"
+            },
+            {
+                "id": 436965,
+                "title": "The Monet Family in Their Garden at Argenteuil",
+                "artist": "Edouard Manet",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1562.jpg"
+            },
+            {
+                "id": 669033,
+                "title": "Henri Fantin-Latour (1836–1904)",
+                "artist": "Carolus-Duran (Charles-Auguste-Émile Durant)",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP338851.jpg"
+            },
+            {
+                "id": 248068,
+                "title": "Bronze nummus of Constantius I Chlorus",
+                "artist": "",
+                "image": "https://images.metmuseum.org/CRDImages/gr/web-large/LC-08_170_411b-5.jpg"
+            },
+            {
+                "id": 325688,
+                "title": "Statuette of a female",
+                "artist": "",
+                "image": "https://images.metmuseum.org/CRDImages/an/web-large/64.130.jpg"
+            },
+            {
+                "id": 335240,
+                "title": "Bacchanal",
+                "artist": "Nicolas Poussin",
+                "image": "https://images.metmuseum.org/CRDImages/dp/web-large/DP807962.jpg"
+            },
+            {
+                "id": 436085,
+                "title": "Apple Blossoms",
+                "artist": "Charles-François Daubigny",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2145.jpg"
+            },
+            {
+                "id": 436785,
+                "title": "Honfleur",
+                "artist": "Johan Barthold Jongkind",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1558.jpg"
+            }
+        ]
+    },
+    {
+        "email": "pass",
+        "password": "pass",
+        "artworks": []
+    },
+    {
+        "email": "passe",
+        "password": "pass",
+        "artworks": []
+    },
+    {
+        "email": "passee",
+        "password": "pass",
+        "artworks": []
+    },
+    {
+        "email": "ollo",
+        "password": "ollo",
+        "artworks": []
+    },
+    {
+        "email": "olloo",
+        "password": "ollo",
+        "artworks": [
+            {
+                "id": 248068,
+                "title": "Bronze nummus of Constantius I Chlorus",
+                "artist": "",
+                "image": "https://images.metmuseum.org/CRDImages/gr/web-large/LC-08_170_411b-5.jpg"
+            },
+            {
+                "id": 494772,
+                "title": "Portrait of Jan Toorop",
+                "artist": "Georges Lemmen",
+                "image": "https://images.metmuseum.org/CRDImages/ma/web-large/dp147573.jpg"
+            },
+            {
+                "id": 669033,
+                "title": "Henri Fantin-Latour (1836–1904)",
+                "artist": "Carolus-Duran (Charles-Auguste-Émile Durant)",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP338851.jpg"
+            }
+        ]
+    },
+    {
+        "email": "oppo",
+        "password": "oppo",
+        "artworks": []
+    },
+    {
+        "email": "oppoo",
+        "password": "oppo",
+        "artworks": []
+    },
+    {
+        "email": "oppooo",
+        "password": "oppo",
+        "artworks": []
+    },
+    {
+        "email": "oppooo@oppo",
+        "password": "oppo",
+        "artworks": []
+    },
+    {
+        "email": "oppooo@oppoo",
+        "password": "oppo",
+        "artworks": [
+            {
+                "id": 435882,
+                "title": "Still Life with Apples and a Pot of Primroses",
+                "artist": "Paul Cézanne",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT47.jpg"
+            },
+            {
+                "id": 438738,
+                "title": "Haystacks, Morning, Éragny",
+                "artist": "Camille Pissarro",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20613-001.jpg"
+            },
+            {
+                "id": 325688,
+                "title": "Statuette of a female",
+                "artist": "",
+                "image": "https://images.metmuseum.org/CRDImages/an/web-large/64.130.jpg"
+            },
+            {
+                "id": 196461,
+                "title": "Dressed Dancer at Rest, Hands Behind Her Back, Right Leg Forward (Second State)",
+                "artist": "Edgar Degas",
+                "image": "https://images.metmuseum.org/CRDImages/es/web-large/DT5532.jpg"
+            }
+        ]
+    },
+    {
+        "email": "ol",
+        "password": "ollo",
+        "artworks": []
+    },
+    {
+        "email": "ol@ol",
+        "password": "ollo",
+        "artworks": []
+    },
+    {
+        "email": "max",
+        "password": "max",
+        "artworks": []
+    },
+    {
+        "email": "lac",
+        "password": "lac",
+        "artworks": []
+    },
+    {
+        "email": "la",
+        "password": "la",
+        "artworks": []
+    },
+    {
+        "email": "lam",
+        "password": "lam",
+        "artworks": []
+    },
+    {
+        "email": "lam@lam.hu",
+        "password": "lam",
+        "artworks": []
+    },
+    {
+        "email": "lam@lam.ha",
+        "password": "lam",
+        "artworks": []
+    },
+    {
+        "email": "kol",
+        "password": "lam",
+        "artworks": []
+    },
+    {
+        "email": "pok",
+        "password": "lam",
+        "artworks": []
+    },
+    {
+        "email": "lap",
+        "password": "lap",
         "artworks": []
     },
     {
