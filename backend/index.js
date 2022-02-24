@@ -52,6 +52,9 @@ app.post("/api/signup", (req, res) => {
   console.log(req.body.email, req.body.password);
   if (!req.body.email || !req.body.password)
     return res.status(400).json("missing credentials");
+    if (!(req.body.email.split('').includes('@'))) {
+      res.sendStatus(400)
+    }
   const userExists = users.some((user) => user.email === req.body.email);
   if (userExists) return res.sendStatus(409);
   const user = {
