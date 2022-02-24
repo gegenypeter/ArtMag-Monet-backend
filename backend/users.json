@@ -32,6 +32,36 @@
                 "title": "Henri Fantin-Latour (1836–1904)",
                 "artist": "Carolus-Duran (Charles-Auguste-Émile Durant)",
                 "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP338851.jpg"
+            },
+            {
+                "id": 671456,
+                "title": "Chrysanthemums in the Garden at Petit-Gennevilliers",
+                "artist": "Gustave Caillebotte",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP341200.jpg"
+            },
+            {
+                "id": 436785,
+                "title": "Honfleur",
+                "artist": "Johan Barthold Jongkind",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1558.jpg"
+            },
+            {
+                "id": 435874,
+                "title": "The House with the Cracked Walls",
+                "artist": "Paul Cézanne",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1943.jpg"
+            },
+            {
+                "id": 461357,
+                "title": "Ogee frame",
+                "artist": "",
+                "image": "https://images.metmuseum.org/CRDImages/rl/web-large/SF-1975-1-2535.jpg"
+            },
+            {
+                "id": 438551,
+                "title": "On the Beach, Sunset",
+                "artist": "Eugène Boudin",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1031.jpg"
             }
         ]
     },
@@ -63,6 +93,35 @@
     {
         "email": "laci@laci",
         "password": "laci",
+        "artworks": []
+    },
+    {
+        "email": "peter@peter.hu",
+        "password": "peter",
+        "artworks": [
+            {
+                "id": 435882,
+                "title": "Still Life with Apples and a Pot of Primroses",
+                "artist": "Paul Cézanne",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT47.jpg"
+            },
+            {
+                "id": 438738,
+                "title": "Haystacks, Morning, Éragny",
+                "artist": "Camille Pissarro",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20613-001.jpg"
+            },
+            {
+                "id": 671456,
+                "title": "Chrysanthemums in the Garden at Petit-Gennevilliers",
+                "artist": "Gustave Caillebotte",
+                "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP341200.jpg"
+            }
+        ]
+    },
+    {
+        "email": "codecool@codecool.hu",
+        "password": "codecool",
         "artworks": []
     }
 ]
