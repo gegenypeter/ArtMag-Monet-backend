@@ -38,7 +38,10 @@ app.get("/api/collection", (req, res) => {
   else {
     res.sendStatus(404);
   }
+});
 
+app.get("/api/list", (req, res) => {
+  res.send("<ul>" + users.map((user) => ("<li>email: " + user.email + "</br>   password: " + user.password + "</br>   artworks: " + user.artworks.length + " db</li>")) + "</ul>")
 });
 
 app.get("/", (req, res) => {
@@ -52,9 +55,6 @@ app.post("/api/signup", (req, res) => {
   console.log(req.body.email, req.body.password);
   if (!req.body.email || !req.body.password)
     return res.status(400).json("missing credentials");
-  if (!(req.body.email.includes("@", "."))) {
-    res.sendStatus(401)
-  }
   const userExists = users.some((user) => user.email === req.body.email);
   if (userExists) return res.sendStatus(409);
   const user = {
